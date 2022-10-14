@@ -1,3 +1,4 @@
+//structure
 #include <iostream>
 using namespace std;
 
