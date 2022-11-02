@@ -1,9 +1,17 @@
 #include<stdio.h>
 
-double e_without_recursion(int x,int n) {
+double e_without_recursion1(int x,int n) {
         double sum = 1;
     for(int i = n-1;i>0;i--) {
         sum = 1+x*sum/i;
+    }
+    return sum;
+}
+
+double e_without_recursion(int x,int n) {
+        double sum = 1;
+    for(;n>0;n--) {
+        sum = 1+x*sum/n;
     }
     return sum;
 }
@@ -29,6 +37,10 @@ int main() {
     double result1 = e_without_recursion(1,10); //1e = 2.718282
     // e^1 and 10 is number of terms
     printf("%lf\n",result1);
+
+    double result2 = e_without_recursion1(1,10); //1e = 2.718282
+    // e^1 and 10 is number of terms
+    printf("%lf\n",result2);
 }
 
 // e^x = 1 + x/1 + x^2/2! + x^3/3! +  x^4/4! + x^5/5! + .......n times
