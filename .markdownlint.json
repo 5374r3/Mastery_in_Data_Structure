@@ -1,6 +1,6 @@
   {
     "default": true,
     "MD033": {
-      "allowed_elements": [ "h1", "h3", "HR", "p","details","summary","ul","li" ]
+      "allowed_elements": [ "h1", "h3", "HR", "p","details","summary","ul","li","a" ]
     }
   }

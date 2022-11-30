@@ -3,7 +3,7 @@
 <details>
 <summary>Recursion</summary>
 <ul>
-<li>[how_recursion_work](https://github.com/saket61195/Mastery_in_Data_Structure/blob/main/P01_recursion/c_code/P01_how_recursion_work.c)
+<li><a href="https://github.com/saket61195/Mastery_in_Data_Structure/blob/main/P01_recursion/c_code/P01_how_recursion_work.c">how_recursion_work</a>
 </li>
 <li>[static_variable]()</li>
 <li>[globle_variable]()</li>
