@@ -5,7 +5,7 @@
 > Essential concept to Revise
 <table>
 <tr>
-<th> C Language </th>
+<th>C Language </th>
 <th>CPP Language </th>
 </tr>
 <tr>
@@ -93,6 +93,22 @@
 
 <li><a href="https://github.com/saket61195/Mastery_in_Data_Structure/blob/main/P00_essential_c_and_cpp_concepts/cpp_code/P14_structure_function.cpp
 ">structure_function</a></li>
+
+<li><a href="https://github.com/saket61195/Mastery_in_Data_Structure/tree/main/P00_essential_c_and_cpp_concepts/cpp_code/P15_object_oriented_using_structure.cpp
+">object_oriented_using_structure</a></li>
+
+<li><a href="https://github.com/saket61195/Mastery_in_Data_Structure/tree/main/P00_essential_c_and_cpp_concepts/cpp_code/P16_object_oriented_using_class.cpp
+">object_oriented_using_class</a></li>
+
+<li><a href="https://github.com/saket61195/Mastery_in_Data_Structure/tree/main/P00_essential_c_and_cpp_concepts/cpp_code/P17_class_and_constructor.cpp
+">class_and_constructor</a></li>
+
+<li><a href="https://github.com/saket61195/Mastery_in_Data_Structure/tree/main/P00_essential_c_and_cpp_concepts/cpp_code/P18_class_and_constructor.cpp
+">class_and_constructor</a></li>
+
+<li><a href="https://github.com/saket61195/Mastery_in_Data_Structure/tree/main/P00_essential_c_and_cpp_concepts/cpp_code/P19_this_keyword.cpp
+">this_keyword</a></li>
+
 </td>
 </tr>
 </table>
