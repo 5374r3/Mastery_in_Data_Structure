@@ -54,7 +54,7 @@
 <li><a href="https://github.com/prabhakar61195/Mastery_in_Data_Structure/blob/main/P01_recursion/c_code/P16_quiz_2nd_queston.c
 ">quiz_2nd_queston</li>
 
-<li><a href="https://github.com/prabhakar61195/Mastery_in_Data_Structure/blob/main/P01_recursion/c_code/P16_quiz_3rd_queston.c++
+<li><a href="https://github.com/prabhakar61195/Mastery_in_Data_Structure/blob/main/P01_recursion/c_code/P16_quiz_3rd_queston.cpp
 ">P16_quiz_3rd_queston</li>
 
 <li><a href="https://github.com/prabhakar61195/Mastery_in_Data_Structure/blob/main/P01_recursion/c_code/P16_quiz_4th_queston.c
