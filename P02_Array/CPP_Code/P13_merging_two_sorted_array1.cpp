@@ -11,10 +11,10 @@ void Display(Array arr) {
         cout << arr.A[i] << " ";
     cout << endl;
 }
-struct Array *Merge(Array *arr1, struct Array *arr2) {
+Array *Merge(Array *arr1, Array *arr2) {
     int i, j, k;
     i = j = k = 0;
-    // struct Array *arr3 = (struct Array *)malloc(sizeof(struct Array *));
+    // Array *arr3 = (Array *)malloc(sizeof(Array *));
 
     Array *arr3 = new Array[sizeof(Array *)];
     while (i < arr1->length && j < arr2->length) {
@@ -33,9 +33,9 @@ struct Array *Merge(Array *arr1, struct Array *arr2) {
 }
 
 int main() {
-    struct Array arr1 = {{1, 3, 5, 7, 9}, 10, 5};
-    struct Array arr2 = {{2, 4, 6, 8, 10}, 10, 5};
-    struct Array *arr3;
+    Array arr1 = {{1, 3, 5, 7, 9}, 10, 5};
+    Array arr2 = {{2, 4, 6, 8, 10}, 10, 5};
+    Array *arr3;
     Display(arr1);
     Display(arr2);
     arr3 = Merge(&arr1, &arr2);

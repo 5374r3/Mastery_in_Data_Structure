@@ -72,10 +72,10 @@
 ">parameter_passing_method</a></li>
 
 <li><a href="https://github.com/saket61195/Mastery_in_Data_Structure/blob/main/P00_essential_c_and_cpp_concepts/cpp_code/P8_array_as_parameter0.cpp
-">array_as_parameter0.c</a></li>
+">array_as_parameter</a></li>
 
 <li><a href="https://github.com/saket61195/Mastery_in_Data_Structure/blob/main/P00_essential_c_and_cpp_concepts/cpp_code/P8_array_as_parameter1.cpp
-">array_as_parameter1.c</a></li>
+">array_as_parameter</a></li>
 
 <li><a href="https://github.com/saket61195/Mastery_in_Data_Structure/blob/main/P00_essential_c_and_cpp_concepts/cpp_code/P9_structure_as_parameter.cpp
 ">structure_as_parameter</a></li>
