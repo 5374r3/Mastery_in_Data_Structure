@@ -3,14 +3,9 @@
 >The repository is collection of Data Structure program which is implemented in [C](https://github.com/saket61195/Mastery_in_Data_Structure/blob/main/C_Readme_.md)
 >and [C++](https://github.com/saket61195/Mastery_in_Data_Structure/blob/main/CPP_Readme_.md)
 > Essential concept to Revise
-<table>
-<tr>
-<th>C Language </th>
-<th>CPP Language </th>
-</tr>
-<tr>
-<td>
-
+<details>
+<summary>C_Concept</summary>
+<ul>
 <li><a href="https://github.com/saket61195/Mastery_in_Data_Structure/blob/main/P00_essential_c_and_cpp_concepts/c_code/P1_array.c
 ">array</a></li>
 
@@ -51,8 +46,11 @@
 
 <li><a href="https://github.com/saket61195/Mastery_in_Data_Structure/blob/main/P00_essential_c_and_cpp_concepts/c_code/P14_structure_function.c
 ">structure_function</a></li>
-</td>
-<td>
+</details>
+</ul>
+<details>
+<summary>CPP_Concept</summary>
+<ul>
 <li><a href="https://github.com/saket61195/Mastery_in_Data_Structure/blob/main/P00_essential_c_and_cpp_concepts/cpp_code/P1_array.cpp
 ">array</a></li>
 
@@ -108,7 +106,5 @@
 
 <li><a href="https://github.com/saket61195/Mastery_in_Data_Structure/tree/main/P00_essential_c_and_cpp_concepts/cpp_code/P19_this_keyword.cpp
 ">this_keyword</a></li>
-
-</td>
-</tr>
-</table>
+</details>
+</ul>
