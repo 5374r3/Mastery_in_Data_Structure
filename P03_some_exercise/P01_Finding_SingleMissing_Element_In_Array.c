@@ -3,7 +3,7 @@
 
 struct Array {
     int *A;
-    int size;
+    int length;
 };
 
 // Given a sorted array, Time Complexity: O(n)
@@ -16,7 +16,7 @@ struct Array {
 void FindSingleMissingElement(struct Array arr) {
     int low = arr.A[0];
     int diff = low - 0;
-    for (int i = 0; i < arr.size; i++) {
+    for (int i = 0; i < arr.length; i++) {
         if (arr.A[i] - i != diff) {
             printf("Missing element is: %d", i + diff);
             return;
@@ -26,8 +26,8 @@ void FindSingleMissingElement(struct Array arr) {
 }
 int main() {
     struct Array arr;
-    arr.size = 10;
-    arr.A = (int *)malloc(arr.size * sizeof(int));
+    arr.length = 10;
+    arr.A = (int *)malloc(arr.length * sizeof(int));
 
     arr.A[0] = 8;
     arr.A[1] = 10;
