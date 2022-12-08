@@ -1,4 +1,4 @@
-# MASTER IN DATA STRUCTURE USING C AND CPP
+# Mastering Data Structures & Algorithms using C and C++" by Abdul Bari
 
 >The repository is collection of Data Structure program which is implemented in [C](https://github.com/saket61195/Mastery_in_Data_Structure/blob/main/C_Readme_.md)
 >and [C++](https://github.com/saket61195/Mastery_in_Data_Structure/blob/main/CPP_Readme_.md)
