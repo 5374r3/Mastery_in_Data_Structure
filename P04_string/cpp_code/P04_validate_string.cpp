@@ -12,9 +12,9 @@ int valid(const char *s) {
 int main() {
     const char *s = "Mohan123";
     if (valid(s)) {
-        cout<<"valid string";
+        cout << "valid string";
     } else {
-        cout<<"invalid string";
+        cout << "invalid string";
     }
 
     return 0;
