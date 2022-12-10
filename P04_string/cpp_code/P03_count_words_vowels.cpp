@@ -14,7 +14,7 @@ int main() {
         }
     }
     for (int i = 0; A[i] != '\0'; i++) {
-        if (A[i] == ' ' && A[i-1]!=' ')
+        if (A[i] == ' ' && A[i - 1] != ' ')
             total_words++;
     }
     cout << "total vowel is " << vowel_count << endl;
