@@ -15,7 +15,7 @@ void Display(struct Array arr) {
 void PairOfElements(struct Array arr, int sum, int low, int high) {
     int total_length = arr.length;
     int H[high];
-    for (int i = 0; i < high; i++)
+    for (int i = 1; i <= high; i++)
         H[i] = 0;
     for (int i = 0; i < total_length; i++) {
         if (H[sum - arr.A[i]] != 0 && (sum - arr.A[i] > 1)) {
@@ -26,7 +26,7 @@ void PairOfElements(struct Array arr, int sum, int low, int high) {
 }
 
 int main() {
-    struct Array arr = {{6, 3, 10, 16, 8, 5, 2, 9, 1, 14}, 10};
+    struct Array arr = {{6, 3, 10, 16, 22, 5, 2, 9, 1, 8}, 10};
 
     Display(arr);
 

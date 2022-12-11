@@ -16,7 +16,7 @@ void DuplicateElements(struct Array arr) {
     int lastduplicate = 0;
     for (int i = 0; i < arr.length - 1; i++) {
         if (arr.A[i] == arr.A[i + 1] && arr.A[i] != lastduplicate) {
-            printf("missing element is %d\n", arr.A[i]);
+            printf("dulicate element is %d\n", arr.A[i]);
             lastduplicate = arr.A[i];
         }
     }

@@ -12,30 +12,30 @@ void Display(struct Array arr) {
     printf("\n\n");
 }
 
-void MissingElements(struct Array arr, int low, int high, int size) {
+void DuplicateElements(struct Array arr, int low, int high, int size) {
     int H[high];
-    for (int i = 0; i < high; i++) {
+    for (int i = 1; i <= high; i++) {
         H[i] = 0;
     }
 
     for (int i = 0; i < arr.length; i++) {
         H[arr.A[i]]++;
     }
-
-    for (int i = low; i < high; i++) {
-        if (H[i] == 0)
-            printf("Missing Elements are: %d\n", i);
+    printf("\n");
+    for (int i = low; i <= high; i++) {
+        if (H[i] > 1)
+            printf("%d apears %d times\n", i, H[i]);
     }
 }
 
 int main() {
-    struct Array arr = {{3, 7, 4, 9, 12, 6, 1, 11, 2, 10},10};
-    // struct Array arr = {{3, 4, 5, 6, 7, 8, 10, 13, 14, 15},10};
+    struct Array arr = {{2, 7, 4, 4, 12, 6, 11, 11, 2, 10}, 10};
+    // struct Array arr = {{1, 2, 3, 7, 7, 8, 13, 15, 16,16},10};
 
     Display(arr);
 
-    MissingElements(arr, 3, 12, 10);
-    // MissingElements(arr, 3, 15, 10);
+    DuplicateElements(arr, 3, 12, 10);
+    // DuplicateElements(arr, 3, 16, 10);
 }
 
 /* without using structure */

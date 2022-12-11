@@ -14,7 +14,7 @@ void Display(struct Array arr) {
 
 void MissingElements(struct Array arr, int low, int high, int size) {
     int H[high];
-    for (int i = 0; i < high; i++) {
+    for (int i = 1; i <= high; i++) {
         H[i] = 0;
     }
 
@@ -22,7 +22,7 @@ void MissingElements(struct Array arr, int low, int high, int size) {
         H[arr.A[i]]++;
     }
 
-    for (int i = low; i < high; i++) {
+    for (int i = low; i <= high; i++) {
         if (H[i] == 0)
             printf("Missing Elements are: %d\n", i);
     }
