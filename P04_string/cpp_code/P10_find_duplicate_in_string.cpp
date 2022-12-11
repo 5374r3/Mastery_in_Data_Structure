@@ -13,7 +13,7 @@ int main() {
             }
             if (count > 1)
                 // printf("%c appaers %d times\n", s[i], count);
-                cout<<"appaers "<< s[i]<<" times "<<count<<endl;
+                cout<< s[i]<<" appaers "<<count<<" times "<<endl;
         }
     }
     return 0;
