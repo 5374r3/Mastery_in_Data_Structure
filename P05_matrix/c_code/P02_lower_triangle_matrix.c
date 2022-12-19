@@ -9,25 +9,12 @@ void setMatrixR(struct LT_Matrix *m, int i, int j, int k) {
     if (i >= j)
         m->A[i * (i - 1) / 2 + j - 1] = k;
 }
-// column wise implementation
-void setMatrixC(struct LT_Matrix *m, int i, int j, int k) {
-    if (i >= j)
-        m->A[(m->n * (j - 1) - (j - 2) * (j - 1) / 2) + (i - j)] = k;
-}
-
 int getMatrixR(struct LT_Matrix *m, int i, int j) {
     if (i >= j)
         return m->A[i * (i - 1) / 2 + j - 1];
     else
         return 0;
 }
-int getMatrixC(struct LT_Matrix *m, int i, int j) {
-    if (i >= j)
-        return m->A[(m->n * (j - 1) - (j - 2) * (j - 1) / 2) + (i - j)];
-    else
-        return 0;
-}
-// row wise
 void displayMatrixR(struct LT_Matrix m) {
     for (int i = 1; i <= m.n; i++) {
         for (int j = 1; j <= m.n; j++) {
@@ -39,8 +26,19 @@ void displayMatrixR(struct LT_Matrix m) {
         printf("\n");
     }
 }
+// column wise implementation
+void setMatrixC(struct LT_Matrix *m, int i, int j, int k) {
+    if (i >= j)
+        m->A[(m->n * (j - 1) - (j - 2) * (j - 1) / 2) + (i - j)] = k;
+}
 
-// column wise
+int getMatrixC(struct LT_Matrix *m, int i, int j) {
+    if (i >= j)
+        return m->A[(m->n * (j - 1) - (j - 2) * (j - 1) / 2) + (i - j)];
+    else
+        return 0;
+}
+
 void displayMatrixC(struct LT_Matrix m) {
     for (int i = 1; i <= m.n; i++) {
         for (int j = 1; j <= m.n; j++) {
@@ -52,6 +50,8 @@ void displayMatrixC(struct LT_Matrix m) {
         printf("\n");
     }
 }
+
+
 int main() {
     struct LT_Matrix m, m2;
     m.n = 4;
@@ -85,6 +85,8 @@ int main() {
     displayMatrixR(m);
     printf("%d\n", getMatrixR(&m, 1, 1));
     printf("%d\n", getMatrixR(&m, 4, 4));
+
+    
     // column wise opration
 
     printf("\n\n");
@@ -103,7 +105,7 @@ int main() {
     setMatrixC(&m2, 4, 3, 9);
     setMatrixC(&m2, 4, 4, 7);
 
-    //user input
+    // user input
 
     // int x;
     // printf("Enter the Matrix dimension ");
