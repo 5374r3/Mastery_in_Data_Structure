@@ -92,6 +92,8 @@ int main ()
     }
 
     Display (M);
+    printf("%d\n",Get(M,1,1));
+    printf("%d\n",Get(M,3,4));
 }
 
 

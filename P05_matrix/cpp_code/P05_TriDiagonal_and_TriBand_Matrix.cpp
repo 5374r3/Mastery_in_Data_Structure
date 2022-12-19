@@ -85,6 +85,8 @@ int main() {
     }
 
     M.Display();
+    printf("%d\n",M.Get(1,1));
+    printf("%d\n",M.Get(3,4));
 }
 
 // 5
