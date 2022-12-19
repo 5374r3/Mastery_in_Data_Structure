@@ -9,25 +9,13 @@ void setMatrixC(struct LT_Matrix *m, int i, int j, int k) {
     if (i <= j)
         m->A[j * (j - 1) / 2 + i - 1] = k;
 }
-// Row wise implementation
-void setMatrixR(struct LT_Matrix *m, int i, int j, int k) {
-    if (i <= j)
-        m->A[(m->n * (i - 1) - (i - 2) * (i - 1) / 2) + (j - i)] = k;
-}
-
 int getMatrixC(struct LT_Matrix *m, int i, int j) {
     if (i <= j)
         return m->A[j * (j - 1) / 2 + i - 1];
     else
         return 0;
 }
-int getMatrixR(struct LT_Matrix *m, int i, int j) {
-    if (i <= j)
-        return m->A[(m->n * (i - 1) - (i - 2) * (i - 1) / 2) + (j - i)];
-    else
-        return 0;
-}
-// column wise
+
 void displayMatrixC(struct LT_Matrix m) {
     for (int i = 1; i <= m.n; i++) {
         for (int j = 1; j <= m.n; j++) {
@@ -38,6 +26,18 @@ void displayMatrixC(struct LT_Matrix m) {
         }
         printf("\n");
     }
+}
+// Row wise implementation
+void setMatrixR(struct LT_Matrix *m, int i, int j, int k) {
+    if (i <= j)
+        m->A[(m->n * (i - 1) - (i - 2) * (i - 1) / 2) + (j - i)] = k;
+}
+
+int getMatrixR(struct LT_Matrix *m, int i, int j) {
+    if (i <= j)
+        return m->A[(m->n * (i - 1) - (i - 2) * (i - 1) / 2) + (j - i)];
+    else
+        return 0;
 }
 
 // Row wise
