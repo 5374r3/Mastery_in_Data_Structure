@@ -118,7 +118,7 @@ int main() {
 //     int i, j, k;
 //     struct Poly *sum;
 //     // total size of polynomial depenends on both size of polynomial length sum
-//     sum = (struct poly *)malloc(sizeof(struct Poly));
+//     sum = (struct Poly *)malloc(sizeof(struct Poly));
 //     sum->terms = (struct Term *)malloc((p1->n + p2->n) * sizeof(struct Term));
 //     i = j = k = 0;
 //     while (i < p1->n && j < p2->n) {
